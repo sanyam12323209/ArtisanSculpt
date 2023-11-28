@@ -1,0 +1,326 @@
+/* Basic styles for products */
+.product {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product .product-info {
+    display: flex;
+    width: 100%;
+}
+
+.product .product-info .product-image {
+    flex: 1;
+    max-width: 200px; /* Set the maximum width for the product images */
+}
+
+.product .product-info .product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product .product-info .product-description {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.product .product-info .product-description h3 {
+    margin-top: 0;
+}
+
+.product .product-info .product-description p {
+    margin: 5px 0;
+}
+
+.product .product-info .product-description a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.product .product-info .product-description a:hover {
+    background-color: #45a049;
+}
+.main-nav {
+    background-color: #0bc2d35e; /* Background color for the navigation */
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Aligns navigation links horizontally */
+}
+
+.main-nav ul li {
+    margin: 0 10px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+.section {
+    position: relative;
+    padding-left: 20px; /* Add padding to create space for the text */
+}
+
+.website-name {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    z-index: 999; /* Ensure the text appears above other elements */
+}
+
+.website-name h2 {
+    font-size: 1.5rem; /* Adjust font size */
+    color: #fff; /* Text color */
+    /* Add any other styles you want for the text */
+}
+
+.home-section {
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/image_515152d5.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height of the home section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.website-name {
+    /* Styles for the website name */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+.website-name h2 {
+    /* Styles for the website name text */
+    font-size: 2rem;
+    color: #fff;
+    /* Add any other styles you want for the text */
+}
+
+.hero {
+    /* Styles for the content in the home section */
+    color: #fff;
+    /* Add any other styles for the content */
+}
+.gallery-section {
+    padding: 20px; /* Add padding to the gallery section */
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+.contact-section {
+    padding: 20px;
+}
+
+.contact-person {
+    margin-bottom: 20px;
+}
+
+.person-info {
+    text-align: left;
+}
+
+.person-info img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height proportionally */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.testimonials-section {
+    padding: 20px;
+}
+
+.testimonials-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial cite {
+    font-weight: bold;
+}
+
+.rating {
+    color: #f2b600;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.collaboration-section {
+    padding: 20px;
+}
+
+.collaboration-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tie-up-info {
+    text-align: left;
+}
+
+.tie-up-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tie-up-info p {
+    margin-bottom: 15px;
+}
+
+.tie-up-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+.tie-up-info img {
+    display: block;
+    max-width: 250px; /* Adjust the width as needed */
+    margin: 20px left;
+}
+.crafting-process-section {
+    padding: 20px;
+}
+
+.crafting-process-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.crafting-process-info {
+    text-align: left;
+}
+
+.crafting-process-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.crafting-process-info p {
+    margin-bottom: 15px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (responsive) */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sustainability-section {
+    padding: 20px;
+}
+
+.sustainability-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sustainability-info {
+    text-align: left;
+}
+
+.sustainability-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sustainability-info .large-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sustainability-info ul {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sustainability-info ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
